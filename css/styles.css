@@ -1,0 +1,191 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#0b9ef3;
+
+}
+.welcme{
+    font-family: 'Yusei Magic', sans-serif;
+    text-align:center;
+    color:#fff;
+
+}
+.waters{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:left;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    left:700px;
+    z-index:-3;
+
+  
+}
+.waters2{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:right;
+    right:400px;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-3;
+  
+}
+.waters3{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:center;
+    bottom:600px;
+    animation-delay:3s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-2;
+
+  
+}
+.waters4{
+    background:url("wars.png");
+    width:40px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:center;
+    bottom:1000px;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-2;
+
+  
+}
+.waters5{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:center;
+    bottom:200px;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-2;
+
+  
+}
+.waters6{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:left;
+    left:1200px;
+    animation-delay:6s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-2;
+
+  
+}
+.waters7{
+    background:url("wars.png");
+    width:50px;
+    height:60px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    animation-duration: 4s;
+    position:relative;
+    float:left;
+    left:1000px;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    margin-top:-20px;
+    animation-name:watersd;
+    visibility:collapse;
+    z-index:-2;
+
+  
+}
+.wrap{
+    background-color:white;
+    z-index: 20;
+    height:500px;
+    margin: auto;
+    width: 60em;
+    box-shadow:  5px 2px  #32383b;
+}
+.S{
+    margin-top:-750px;
+    z-index:-3;
+}
+.intro{
+    font-family: 'Yusei Magic', sans-serif;
+    margin-top:1px;
+    margin-left:50px;
+    text-indent: -2em;
+    font-size:20px;
+
+}
+.des{
+    margin:10px;
+    font-family: 'Yusei Magic', sans-serif;
+    
+}
+.get{
+    display: flex;
+    justify-content: center;
+    border:none;
+    background-color:#075ccc;
+    color:white;
+    font-family: 'Yusei Magic', sans-serif;
+    width:100px;
+    height:30px;
+    text-align:center;
+    margin: 4px 2px;
+    border-radius: 2px;
+
+}
+.get:hover{
+    background-color:#06408b;
+
+}
+@keyframes watersd{
+from{top:460px;visibility:visible;}
+to{top:0px;opacity:0;visibility:visible}
+}
